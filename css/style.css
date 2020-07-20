@@ -1,0 +1,64 @@
+body {
+    background-color: #dbdbdb;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.slider h3,
+.slider h5 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.container img {
+    margin: auto;
+    width: 400px;
+    height: 350px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgColor {
+    background-color: #d81576;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.roundCard {
+    border-radius: 10px !important;
+}
+
+.fntWhite {
+    color: white;
+    font-size: large;
+}
+
+.compName {
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+}
+
+.fntGrey {
+    color: #4e4e4a;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.fntGreen {
+    color: #34bf54;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.fntRed {
+    color: #e40d0d;
+    font-weight: bold;
+    margin-left: 5px;
+}
