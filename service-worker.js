@@ -1,4 +1,4 @@
-const CACHE_NAME = "liganotify-apps-v1.0.0.0.29";
+const CACHE_NAME = "liganotify-apps-v1.0.0.0.30";
 let urlsToCache = [
     "/",
     "manifest.json",
