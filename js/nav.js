@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (this.readyState = 4) {
                 const content = document.querySelector("#body-content");
 
-                if (page === 'klasemen') {
-                    getArticles()
+                if (page === 'ligaChamps') {
+                    getStandingsChamps()
                 } else if (page === 'ligaJer') {
                     getStandingsJer()
                 } else if (page === 'ligaIng') {
@@ -52,8 +52,6 @@ document.addEventListener("DOMContentLoaded", function () {
                     getStandingsSpn()
                 } else if (page === 'ligaPrc') {
                     getStandingsPrc()
-                } else if (page === 'ligaChamps') {
-                    getStandingsChamps()
                 }
 
                 if (this.status == 200) {
