@@ -62,3 +62,23 @@ body {
     font-weight: bold;
     margin-left: 5px;
 }
+
+.info-t a {
+    color: white;
+    font-size: x-large;
+}
+
+.info-t {
+    background-color: #df0a98;
+    padding: 10px;
+}
+
+.logo-t {
+    max-width: 200px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+#teamx {
+    margin-top: 20px;
+}
